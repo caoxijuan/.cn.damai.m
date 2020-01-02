@@ -112,7 +112,7 @@ main {
 
 .time {
     padding: 0 calc(26rem / 64);
-    padding-bottom: calc(0rem / 64);
+    padding-bottom: calc(46rem / 64);
 }
 
 .time a {
@@ -132,22 +132,98 @@ main {
 
 .show ul {
     width: 100%;
-    height: ;
+    height: calc(470rem / 64);
+    overflow-x: scroll;
+    margin-left: calc(26rem / 64);
+    margin-bottom: calc(0rem / 64);
+}
+
+.show ul li {
+    width: calc(2780rem / 64);
+    height: 100%;
 }
 
 .show ul li a {
     display: block;
+    float: left;
+    width: calc(260rem / 64);
+    margin-right: calc(18rem / 64);
+    text-decoration: none;
+}
+
+.show ul li a:last-child {
+    margin-right: 0;
 }
 
 .show ul li a i {
     display: block;
     width: calc(260rem / 64);
     height: calc(380rem / 64);
-    background-image: url(../upload/show-1.webp);
     background-size: 100% 100%;
     border-radius: calc(6rem / 64);
 }
 
+.show ul li a:first-child i {
+    background-image: url(../upload/show-1.webp);
+}
+
+.show ul li a:nth-child(2) i {
+    background-image: url(../upload/show-2.webp);
+}
+
+.show ul li a:nth-child(3) i {
+    background-image: url(../upload/show-3.webp);
+}
+
+.show ul li a:nth-child(4) i {
+    background-image: url(../upload/show-4.webp);
+}
+
+.show ul li a:nth-child(5) i {
+    background-image: url(../upload/show-5.webp);
+}
+
+.show ul li a:nth-child(6) i {
+    background-image: url(../upload/show-6.webp);
+}
+
+.show ul li a:nth-child(7) i {
+    background-image: url(../upload/show-7.webp);
+}
+
+.show ul li a:nth-child(8) i {
+    background-image: url(../upload/show-8.webp);
+}
+
+.show ul li a:nth-child(9) i {
+    background-image: url(../upload/show-9.webp);
+}
+
+.show ul li a:nth-child(10) i {
+    background-image: url(../upload/show-10.webp);
+}
+
+.show ul li a p {
+    margin-top: calc(31rem / 64);
+    margin-bottom: calc(9rem / 64);
+    font-weight: bolder;
+    color: #000000;
+    font-size: calc(24rem / 64);
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .show ul li a span {
     display: block;
+    color: #000000;
+    font-size: calc(22rem / 64);
+}
+
+.s-title h3 {
+    font-weight: 700;
+    font-size: calc(29rem / 64);
 }
