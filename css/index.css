@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -5,11 +9,71 @@ header {
     width: 100%;
     height: calc(84rem / 64);
     background-color: #f5f5f5;
+    padding-top: calc(17rem / 64);
+}
+
+header a {
+    float: left;
+}
+
+header a:first-child {
+    color: #000000;
+    text-decoration: none;
+    font-size: calc(28rem / 64);
+    margin-left: calc(28rem / 64);
+    margin-right: calc(28rem / 64);
+    margin-top: calc(7rem / 64);
+}
+
+header a:first-child i {
+    font-size: calc(31rem / 64);
+    margin-right: calc(3rem / 64);
+}
+
+header a:nth-child(2) {
+    display: block;
+    text-decoration: none;
+    width: calc(395rem / 64);
+    height: calc(50rem / 64);
+    color: #999999;
+    background-color: #fff;
+    border-radius: calc(89rem / 64);
+}
+
+header a:nth-child(2) input {
+    border: none;
+    width: calc(272rem / 64);
+    color: #999999;
+    font-size: calc(24rem / 64);
+    margin-top: calc(12rem / 64);
+}
+
+header a:nth-child(2) i {
+    font-size: calc(35rem / 64);
+    margin-left: calc(26rem / 64);
+    margin-right: calc(12rem / 64);
+    vertical-align: middle;
+}
+
+header a:nth-child(3) {
+    text-decoration: none;
+    margin: 0 calc(24rem / 64);
+    margin-top: calc(7rem / 64);
+}
+
+header a:nth-child(3) i {
+    font-size: calc(35rem / 64);
+    color: #000000;
+    vertical-align: middle;
 }
 
 main {
     padding-top: calc(84rem / 64);
+    box-sizing: border-box;
 }
+
+
+/* 导航 */
 
 .nav {
     width: 100%;
@@ -74,6 +138,9 @@ main {
     margin-top: calc(8rem / 64);
 }
 
+
+/* 广告 */
+
 .adv {
     width: 100%;
     height: calc(212rem / 64);
@@ -86,6 +153,9 @@ main {
     background-image: url(../upload/adv_.webp);
     background-size: 100% 100%;
 }
+
+
+/* 轮播图 */
 
 .title {
     padding: calc(40rem / 64) calc(26rem / 64);
@@ -132,10 +202,10 @@ main {
 
 .show ul {
     width: 100%;
-    height: calc(470rem / 64);
+    height: calc(483rem / 64);
     overflow-x: scroll;
-    margin-left: calc(26rem / 64);
-    margin-bottom: calc(0rem / 64);
+    padding-left: calc(26rem / 64);
+    margin-bottom: calc(63rem / 64);
 }
 
 .show ul li {
@@ -149,10 +219,6 @@ main {
     width: calc(260rem / 64);
     margin-right: calc(18rem / 64);
     text-decoration: none;
-}
-
-.show ul li a:last-child {
-    margin-right: 0;
 }
 
 .show ul li a i {
@@ -223,7 +289,91 @@ main {
     font-size: calc(22rem / 64);
 }
 
+
+/* 演出 */
+
+.showtime {
+    padding: 0 calc(26rem / 64);
+}
+
 .s-title h3 {
     font-weight: 700;
     font-size: calc(29rem / 64);
+    margin-bottom: calc(53rem / 64);
+}
+
+.s-nav a {
+    float: left;
+    font-size: calc(24rem / 64);
+    padding-right: calc(43rem / 64);
+    color: #111111;
+    text-decoration: none;
+    margin-bottom: calc(44rem / 64);
+}
+
+.s-nav a:last-child {
+    padding-right: 0;
+}
+
+.s-nav a:nth-child(3) {
+    color: #ff2574;
+}
+
+.s-nav a i {
+    color: #dddddd;
+    vertical-align: middle;
+}
+
+.s-content a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: calc(57rem /64);
+}
+
+.s-content a img {
+    float: left;
+    width: calc(155rem / 64);
+    height: calc(211rem / 64);
+}
+
+.s-content a div {
+    float: right;
+    width: calc(412rem / 64);
+}
+
+.s-content a div h3 {
+    font-size: calc(28rem / 64);
+    color: #000000;
+    font-weight: bolder;
+    line-height: calc(35rem / 64);
+    margin-bottom: calc(19rem / 64);
+}
+
+.s-content a div p {
+    width: 100%;
+    color: #bebebe;
+    margin-bottom: calc(74rem / 64);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.s-content a div span {
+    color: #ff2574;
+    font-size: calc(24rem / 64);
+}
+
+.showtime>p {
+    padding: 0 calc(176rem / 64);
+    font-size: calc(23rem / 64);
+    margin-bottom: calc(93rem / 64);
+    color: #bebebe;
+}
+
+.footer {
+    width: 100%;
+    height: calc(55rem / 64);
+    background-color: #f5f5f5;
 }
