@@ -1,0 +1,142 @@
+/* 轮播图 */
+
+.carousel {
+    position: relative;
+}
+
+.carousel a {
+    display: block;
+    width: 100%;
+    height: calc(308rem / 64);
+}
+
+.carousel a img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel ul {
+    position: absolute;
+    bottom: calc(10rem / 64);
+    left: calc(248rem / 64);
+}
+
+.carousel ul li {
+    float: left;
+    width: calc(8rem / 64);
+    height: calc(8rem / 64);
+    background-color: #aba6a6;
+    margin: 0 calc(7rem / 64);
+    border-radius: 50%;
+}
+
+.carousel ul li:first-child {
+    background-color: #fff;
+}
+
+main {
+    padding: 0 calc(30rem / 64);
+}
+
+.hot-title h3 {
+    color: #111111;
+    font-size: calc(36rem / 64);
+    margin: calc(45rem / 64) 0;
+}
+
+.hot-nav a {
+    display: block;
+    float: left;
+    width: calc(187rem / 64);
+    height: calc(187rem / 64);
+    margin-right: calc(9rem / 64);
+}
+
+.hot-nav a:last-child {
+    margin-right: 0;
+}
+
+.hot-nav a img {
+    width: 100%;
+    height: 100%;
+    border-radius: calc(5rem / 64);
+}
+
+.rec-nav {
+    margin-bottom: calc(42rem / 64);
+}
+
+.rec-nav a {
+    text-decoration: none;
+    color: #111111;
+    font-size: calc(24rem / 64);
+    margin-left: calc(31rem / 64);
+}
+
+.rec-nav a:first-child {
+    margin-left: 0;
+}
+
+.rec-nav a i {
+    font-size: calc(5rem / 64);
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.content a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: calc(74rem /64);
+}
+
+.content a img {
+    float: left;
+    width: calc(155rem / 64);
+    height: calc(211rem / 64);
+    border-radius: calc(5rem / 64);
+}
+
+.content a div {
+    float: right;
+    width: calc(412rem / 64);
+}
+
+.content a div h3 {
+    width: 100%;
+    font-size: calc(26rem / 64);
+    color: #000000;
+    font-weight: normal;
+    line-height: calc(35rem / 64);
+    margin-bottom: calc(19rem / 64);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.content a div p {
+    width: 100%;
+    color: #bebebe;
+    margin-bottom: calc(74rem / 64);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.content a div span {
+    color: #111111;
+    font-size: calc(24rem / 64);
+}
+
+.footer p:first-child {
+    color: #888888;
+    padding: 0 calc(198rem / 64) calc(33rem / 64);
+}
+
+.footer p:last-child {
+    padding: calc(22rem / 64) calc(53rem / 64);
+    background-color: #e7e7e7;
+}

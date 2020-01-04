@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100%;
+    height: calc(210rem / 64);
+}
+
+header p {
+    background-color: #36509d;
+    padding: calc(31rem / 64) calc(247rem / 64);
+    color: #ffffff;
+    margin-bottom: calc(34rem / 64);
+}
+
+main {
+    padding: 0 calc(30rem / 64);
+}
+
+.content a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: calc(74rem /64);
+}
+
+.content a img {
+    float: left;
+    width: calc(155rem / 64);
+    height: calc(211rem / 64);
+    border-radius: calc(5rem / 64);
+}
+
+.content a div {
+    float: right;
+    width: calc(412rem / 64);
+}
+
+.content a div h3 {
+    width: 100%;
+    font-size: calc(26rem / 64);
+    color: #000000;
+    font-weight: normal;
+    line-height: calc(35rem / 64);
+    margin-bottom: calc(19rem / 64);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.content a div p {
+    width: 100%;
+    color: #222222;
+    margin-bottom: calc(74rem / 64);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.content a div span {
+    color: #111111;
+    font-size: calc(24rem / 64);
+}
+
+.footer p {
+    color: #888888;
+    padding: 0 calc(198rem / 64) calc(83rem / 64);
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: calc(16rem / 64) calc(258rem / 64);
+    background-color: #ffffff;
+}
+
+.bottom a {
+    color: #981ed0;
+    text-decoration: none;
+    font-weight: bolder;
+}

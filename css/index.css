@@ -334,6 +334,7 @@ main {
     float: left;
     width: calc(155rem / 64);
     height: calc(211rem / 64);
+    border-radius: calc(5rem / 64);
 }
 
 .s-content a div {
