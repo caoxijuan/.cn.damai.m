@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    overflow: hidden;
+    position: relative;
+}
+
+.top {
+    width: 100%;
+    height: calc(241rem / 64);
+    background-image: url(../upload/shopping.jpg);
+    background-repeat: no-repeat;
+    background-size: 200% auto;
+    background-position: 0 50%;
+    transform: scale(1.1)!important;
+    filter: blur(calc(44rem / 64));
+}
+
+.top-in {
+    position: absolute;
+    top: calc(50rem / 64);
+    right: calc(39rem / 64);
+    width: calc(377rem / 64);
+}
+
+.top-in h3 {
+    color: #ffffff;
+    font-size: calc(25rem / 64);
+    line-height: calc(36rem / 64);
+    margin-bottom: calc(12rem / 64);
+}
+
+.top-in p {
+    color: #ffffff;
+    font-size: calc(25rem / 64);
+}
+
+main {
+    padding-bottom: calc(86rem / 64);
+}
+
+.money {
+    position: relative;
+    padding-top: calc(9rem / 64);
+    padding-bottom: calc(35rem / 64);
+    padding-left: calc(227rem / 64);
+}
+
+.money i {
+    color: #ff1268;
+    font-weight: bolder;
+    font-size: calc(36rem / 64);
+}
+
+.money s {
+    color: #999999;
+    margin-left: calc(13rem / 64);
+}
+
+.money img {
+    position: absolute;
+    top: calc(-198rem / 64);
+    left: calc(21rem / 64);
+    width: calc(183rem / 64);
+    height: calc(245rem / 64);
+    border-radius: calc(5rem / 64);
+}
+
+.pay {
+    padding: calc(22rem / 64) calc(22rem / 64);
+    background-color: #f8f8f8;
+}
+
+.pay a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    font-size: calc(19rem / 64);
+    margin-right: calc(19rem / 64);
+}
+
+.pay a:last-child {
+    float: right;
+    display: block;
+    margin-right: 0;
+    padding-top: calc(6rem / 64);
+}
+
+.pay a:last-child i {
+    color: #999999;
+    font-size: calc(25rem / 64);
+}
+
+.pay a i {
+    color: #fe2876;
+    font-size: calc(34rem / 64);
+    vertical-align: middle;
+}
+
+.time {
+    padding: calc(22rem / 64) calc(22rem / 64);
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.time a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.time a s {
+    font-size: calc(23rem / 64);
+}
+
+.time a i {
+    margin-left: calc(380rem / 64);
+}
+
+.site {
+    padding: calc(22rem / 64) calc(22rem / 64);
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.site s {
+    float: left;
+    color: #808080;
+    font-size: calc(23rem / 64);
+    margin-top: calc(8rem / 64);
+}
+
+.site a {
+    float: right;
+    width: calc(40rem / 64);
+    height: calc(40rem / 64);
+    background-image: url(../upload/shopping.png);
+    background-size: contain;
+    text-decoration: none;
+}
+
+.sky {
+    width: 100%;
+    height: calc(21rem / 64);
+    background-color: #f2f3f4;
+}
+
+.i-title {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 0 calc(22rem / 64);
+}
+
+.i-title h3 {
+    font-weight: bold;
+    font-size: calc(23rem / 64);
+    padding: calc(25rem / 64) 0;
+}
+
+.i-title p {
+    color: #666666;
+    font-size: calc(23rem / 64);
+    padding-bottom: calc(25rem / 64);
+}
+
+.i-bottom {
+    padding: calc(22rem / 64) calc(240rem / 64);
+}
+
+.i-bottom a {
+    color: #ff1268;
+    text-decoration: none;
+    font-size: calc(22rem / 64);
+}
+
+.shopping h3 {
+    font-weight: bold;
+    font-size: calc(23rem / 64);
+    padding: calc(25rem / 64) calc(22rem / 64);
+}
+
+.s-time {
+    padding: 0 calc(22rem / 64)
+}
+
+.s-time s {
+    float: left;
+    display: block;
+    color: #999999;
+    font-size: calc(23rem / 64);
+}
+
+.s-time i {
+    float: right;
+    display: block;
+    width: calc(479rem / 64);
+    color: #666666;
+    font-size: calc(23rem / 64);
+    line-height: calc(31rem / 64);
+    margin-bottom: calc(14rem / 64);
+}
+
+.s-bottom {
+    padding: calc(22rem / 64) calc(240rem / 64);
+    border-top: 1px solid #e7e7e7;
+}
+
+.s-bottom a {
+    color: #ff1268;
+    text-decoration: none;
+    font-size: calc(22rem / 64);
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.foot a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.foot a i {
+    display: block;
+    font-size: calc(38rem / 64);
+    line-height: calc(37rem / 64);
+    color: #b8b8b8;
+}
+
+.foot a:nth-child(-n+2) {
+    width: 13%;
+    color: #666666;
+    padding: calc(13rem / 64) 0;
+}
+
+.foot a:first-child {
+    width: 17%;
+}
+
+.foot a:last-child {
+    width: 70%;
+    color: #ffffff;
+    font-size: calc(27rem / 64);
+    background-image: linear-gradient(90deg, #ff7f81, #ff2d79);
+    padding: calc(27rem / 64) 0;
+}
