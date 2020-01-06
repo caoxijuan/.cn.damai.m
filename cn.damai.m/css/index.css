@@ -72,6 +72,17 @@ main {
     box-sizing: border-box;
 }
 
+.discount a {
+    display: block;
+    width: 100%;
+    height: calc(242rem / 64);
+}
+
+.discount a img {
+    width: 100%;
+    height: 100%;
+}
+
 
 /* 导航 */
 
